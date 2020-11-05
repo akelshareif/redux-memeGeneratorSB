@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dank Meme Generator</title>
+        <link href="./styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="header">
+            <form>
+                <h1>Dank Memes</h1>
+                <h2>Fill out the form below to start creating dank memes!</h2>
+                <input
+                    type="url"
+                    placeholder="Paste Meme Image Link"
+                    required
+                />
+                <input type="text" placeholder="(Optional) Enter Top Text" />
+                <input type="text" placeholder="(Optional) Enter Bottom Text" />
+                <button id="btn">Generate Meme</button>
+            </form>
+        </div>
+        <div id="memeSpace"></div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
